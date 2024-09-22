@@ -2,7 +2,7 @@ bla = process.cwd()
 __path = process.cwd()
 
 //=======[ PORTA DE ACESSO ]======\\
-const PORT = process.env.PORT || 3041 || 2022 || 443
+const PORT = process.env.PORT || 3000;
 
 //=======[ REQUISIÇÕES ]======\\
 const ffmpeg = require('fluent-ffmpeg');
