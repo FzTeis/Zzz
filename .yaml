@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-api
+    env: node
+    plan: free
+    buildCommand: |
+      apt-get update && apt-get install -y libvips-dev && npm install
+    startCommand: npm start
+    envVars:
+      NODE_ENV: production
